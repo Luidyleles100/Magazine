@@ -1,0 +1,56 @@
+body {
+    color: white
+    background-color: black;
+    font-family: Arial,helvetica,sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+h1 {
+    color: blue;
+    margin-bottom: 1px /* diminui o espaço abaixo do h1 */
+}
+
+h2 {
+    margin-top: 0;      /* tira o espaço acima do h2 */
+    margin-bottom: 0;   /* tira o espaço abaixo do h2 */
+}
+
+
+img.img-esquerda {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    margin-left: 0;   /* garante alinhamento à esquerda */
+    margin: 0 0 8px 0; /* zera todas as margens exceto embaixo */
+}
+
+footer {
+    text-align: left;
+}
+
+.img-centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
